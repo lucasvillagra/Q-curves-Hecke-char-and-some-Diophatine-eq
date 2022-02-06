@@ -13,9 +13,14 @@ This git repository contains files related to the computational part of the arti
 
 **• Eq1d5.mg** :  The code used in Theorem 7.1., in Magma.
 
-**• Eq1d6.mg** :  The code used in Theorem 7.2., in Magma
+**• Eq1d6.mg** :  The code used in Theorem 7.2., in Magma.
 
-**• Eq1d7.mg** :  The code used in Theorem 7.3., in Magma
+**• Eq1d7.mg** :  The code used in Theorem 7.3., in Magma.
+
+**• Eq2d2.mg** :  The code used in Theorem 8.1., in Magma.
+
+**• Eq2d6.mg** :  The code used in Theorem 8.2., in Magma.
+
 
 
 

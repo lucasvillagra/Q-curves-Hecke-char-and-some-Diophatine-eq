@@ -9,7 +9,7 @@ This git repository contains files related to the computational part of the arti
 
 **• Mazur26p.mg** : To run Mazur's trick for the equation of signature (2,6,p), in Mamga.
 
-**• Ellenberg.gp** : To compute Ellenberg's bounds, in Sage.
+**• Ellenberg.gp** : To compute Ellenberg's bounds, in PARI/GP.
 
 **• Eq1d5.mg** :  The code used in Theorem 7.1., in Magma.
 

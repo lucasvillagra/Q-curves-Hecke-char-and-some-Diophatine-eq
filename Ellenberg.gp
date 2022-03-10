@@ -4,7 +4,6 @@
 
 \\ This function corresponds to the first bound in Proposition 9 (N>400). The variable s = sigma in their notation.
 \\ Take s=q^2/2/Pi;
-\\ Agregué un 6 en la primera cota, hay que ver si está bien
 
 bound1(m,N,q,s)=6*30*(400/399)^3*exp(2*Pi)*q^2*m^(3/2)*sigma(N,0)/N^(1/2+2*Pi*s/q^2);
 

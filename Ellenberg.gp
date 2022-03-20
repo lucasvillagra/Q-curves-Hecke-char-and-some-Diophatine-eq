@@ -5,7 +5,7 @@
 \\ This function corresponds to the first bound in Proposition 9 (N>400). The variable s = sigma in their notation.
 \\ Take s=q^2/2/Pi;
 
-bound1(m,N,q,s)=6*30*(400/399)^3*exp(2*Pi)*q^2*m^(3/2)*sigma(N,0)/N^(1/2+2*Pi*s/q^2);
+bound1(m,N,q,s)=2*(4*Pi*zeta(3/2)^2+1)*(400/399)^3*exp(2*Pi)*q^2*m^(3/2)*sigma(N,0)/N^(1/2+2*Pi*s/q^2);
 
 E1(m,N,q,s)=16/3*Pi^3*m^(3/2)*s*log(N)/exp(N/2/Pi/m/s/log(N));
 
@@ -50,9 +50,4 @@ F2(p,q,m)=2*sqrt(3)*sqrt(m)*sigma(m,0)/(1-exp(-2*Pi/q/sqrt(p)))*(4*Pi+16*zeta(3/
 \\ This is the script to compute the bound. q = conductor K/Q. The first p where the output is positive is the right answer.
 
 EllenbergBound(p,q,split)=F(p,q,q^2/2/Pi,split)-1/(p^2-1)*F2(p,q,p)-p/(p^2-1)*F2(p,q,1)
-
-
-
-
-
 
